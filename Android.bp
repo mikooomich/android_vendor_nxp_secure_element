@@ -1,3 +1,7 @@
+soong_namespace {
+    imports: ["vendor/nxp/nfc"],
+}
+
 package {
     default_applicable_licenses: ["vendor_nxp_secure_element_license"],
 }
